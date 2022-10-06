@@ -1,12 +1,4 @@
 body {
   background: #feffdf;
-}
-h1 {
   font-family: "Inconsolata", monospace;
-  display: block;
-  margin: 20px;
-  margin-left: 30px;
-}
-p {
-  font-size: 20px;
 }
