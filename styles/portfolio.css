@@ -2,3 +2,13 @@ body {
   background: #feffdf;
   font-family: "Inconsolata", monospace;
 }
+.nav-bar {
+  background: #dde0ab;
+  height: 65px;
+}
+.home-intro {
+  margin-top: 40px;
+}
+.work-preview {
+  display: flex;
+}
