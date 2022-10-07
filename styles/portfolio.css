@@ -30,7 +30,10 @@ h3 {
 }
 p {
   color: var(--primary-color);
-  text-align: center;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 .nav-link {
   color: var(--primary-color);
