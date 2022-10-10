@@ -76,6 +76,7 @@ p {
 }
 @media (max-width: 600px) {
   .img-fluid {
+    max-width: 100%;
     height: auto;
   }
 }
