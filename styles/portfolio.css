@@ -36,21 +36,19 @@ p {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-.nav-link {
+.nav-link,
+.navbar-brand {
   color: var(--primary-color);
   font-size: 30px;
   font-weight: bold;
 }
+
 .nav-link:hover {
   color: #feffdf;
 }
-.active {
-  color: #7fad8f;
+.nav-link .active {
+  color: var(--secondary-color);
   text-shadow: var(--secondary-shadow);
-}
-.nav-bar {
-  background: #dde0ab;
-  height: 65px;
 }
 
 .primary-link {
@@ -64,4 +62,7 @@ p {
 }
 .primary-link:hover {
   color: #feffdf;
+}
+
+@media (max-width: 500px) {
 }
