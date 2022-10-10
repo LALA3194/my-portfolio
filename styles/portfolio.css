@@ -63,6 +63,10 @@ p {
 .primary-link:hover {
   color: #feffdf;
 }
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 
 @media (max-width: 500px) {
   h1 {
@@ -72,11 +76,5 @@ p {
     font-size: 20px;
     font-weight: bolder;
     color: var(--primary-color);
-  }
-}
-@media (max-width: 600px) {
-  .img-fluid {
-    max-width: 100%;
-    height: auto;
   }
 }
