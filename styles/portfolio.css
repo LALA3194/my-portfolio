@@ -67,6 +67,12 @@ p {
   max-width: 100%;
   height: auto;
 }
+.my-photo {
+  max-width: 85%;
+  border: 2px solid #dfd3c3;
+  margin: 1rem;
+  padding: 0.5rem;
+}
 
 @media (max-width: 500px) {
   h1 {
