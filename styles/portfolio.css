@@ -46,8 +46,8 @@ p {
 .nav-link:hover {
   color: #feffdf;
 }
-.nav-link .active {
-  color: var(--secondary-color);
+.active {
+  color: var(--secondary-color) !important;
   text-shadow: var(--secondary-shadow);
 }
 
