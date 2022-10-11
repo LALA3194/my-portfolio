@@ -11,22 +11,21 @@ body {
 }
 
 h1 {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 50px;
-  text-align: center;
 }
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bolder;
   color: var(--secondary-color);
   text-shadow: var(--secondary-shadow);
   text-align: center;
-  margin: 40px;
+  line-height: 72px;
 }
 h3 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-weight: bold;
-  text-align: center;
+
   margin-top: 20px;
 }
 p {
@@ -45,7 +44,7 @@ p {
 .navbar-brand {
   font-family: "Lobster", cursive;
   color: var(--secondary-color);
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -77,6 +76,14 @@ p {
   border: 2px solid #dfd3c3;
   margin: 1rem;
   padding: 0.5rem;
+}
+.cool-underline::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  height: 4px;
+  background-color: var(--primary-color);
 }
 
 @media (max-width: 500px) {
