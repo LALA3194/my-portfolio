@@ -131,3 +131,8 @@ label {
     color: var(--primary-color);
   }
 }
+@media (max-width: 768px) {
+  .odd-row {
+    flex-direction: column-reverse;
+  }
+}
