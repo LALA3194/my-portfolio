@@ -34,6 +34,7 @@ h4 {
   text-shadow: var(--secondary-shadow);
   text-align: center;
 }
+
 p {
   color: var(--primary-color);
   font-size: 20px;
@@ -54,6 +55,10 @@ p {
   font-size: 40px;
   font-weight: bold;
   margin: 0px 10px;
+}
+
+.navbar-brand:hover {
+  color: var(--primary-color);
 }
 
 .nav-link:hover {
@@ -106,7 +111,17 @@ p {
   --bs-btn-hover-bg: var(--primary-color);
   --bs-btn-hover-border-color: var(--primary-color);
 }
-. @media (max-width: 500px) {
+.tools h4 {
+  text-align: center;
+}
+label {
+  color: var(--primary-color);
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+@media (max-width: 500px) {
   h1 {
     font-size: 50px;
   }
