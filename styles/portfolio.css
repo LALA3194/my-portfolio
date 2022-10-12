@@ -25,8 +25,14 @@ h2 {
 h3 {
   color: var(--primary-color);
   font-weight: bold;
-
   margin-top: 20px;
+}
+h4 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: var(--secondary-color);
+  text-shadow: var(--secondary-shadow);
+  text-align: center;
 }
 p {
   color: var(--primary-color);
@@ -35,17 +41,19 @@ p {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
 .nav-link {
   color: var(--primary-color);
   font-size: 25px;
   font-weight: bold;
-  margin: 10px;
+  margin: 0px 10px;
 }
 .navbar-brand {
   font-family: "Lobster", cursive;
   color: var(--secondary-color);
   font-size: 40px;
   font-weight: bold;
+  margin: 0px 10px;
 }
 
 .nav-link:hover {
@@ -90,7 +98,15 @@ p {
 .card-thumbnail {
   margin: 5px;
 }
-@media (max-width: 500px) {
+.btn-outline-dark {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--primary-color);
+  --bs-btn-border-color: var(--primary-color);
+  --bs-btn-hover-color: var(--detail-color);
+  --bs-btn-hover-bg: var(--primary-color);
+  --bs-btn-hover-border-color: var(--primary-color);
+}
+. @media (max-width: 500px) {
   h1 {
     font-size: 50px;
   }
