@@ -56,7 +56,7 @@ p {
 }
 
 .primary-link {
-  border-radius: 50px;
+  border-radius: 15px;
   padding: 15px 20px;
   font-size: 20px;
   text-decoration: none;
@@ -66,17 +66,16 @@ p {
 }
 .primary-link:hover {
   color: #feffdf;
+  background: #668ba4ad;
 }
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
+
 .my-photo {
   max-width: 85%;
   border: 2px solid #dfd3c3;
   margin: 1rem;
   padding: 0.5rem;
 }
+
 .cool-underline::after {
   content: "";
   display: block;
@@ -85,7 +84,12 @@ p {
   height: 4px;
   background-color: var(--primary-color);
 }
-
+.card {
+  background: #dde0abab;
+}
+.card-thumbnail {
+  margin: 5px;
+}
 @media (max-width: 500px) {
   h1 {
     font-size: 50px;
