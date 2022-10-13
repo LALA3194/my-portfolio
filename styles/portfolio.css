@@ -69,6 +69,7 @@ p {
 }
 
 .primary-link {
+  display: inline-block;
   border-radius: 15px;
   padding: 15px 20px;
   font-size: 20px;
@@ -129,6 +130,9 @@ label {
     font-size: 20px;
     font-weight: bolder;
     color: var(--primary-color);
+  }
+  .about-row {
+    flex-direction: column-reverse;
   }
 }
 @media (max-width: 768px) {
