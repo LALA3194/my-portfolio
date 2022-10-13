@@ -34,6 +34,11 @@ h4 {
   text-shadow: var(--secondary-shadow);
   text-align: center;
 }
+h5 {
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 40px;
+}
 
 p {
   color: var(--primary-color);
@@ -111,6 +116,14 @@ p {
   --bs-btn-hover-color: var(--detail-color);
   --bs-btn-hover-bg: var(--primary-color);
   --bs-btn-hover-border-color: var(--primary-color);
+}
+.social {
+  margin: 10px;
+  font-size: 35px;
+  color: var(--secondary-color);
+}
+.social:hover {
+  color: #729c81b6;
 }
 .tools h4 {
   text-align: center;
