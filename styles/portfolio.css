@@ -47,6 +47,9 @@ p {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+footer {
+  margin-top: 80px;
+}
 
 .nav-link {
   color: var(--primary-color);
@@ -68,6 +71,11 @@ p {
 
 .nav-link:hover {
   color: #feffdf;
+}
+.she-codes {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bold;
 }
 .active {
   color: var(--secondary-color) !important;
