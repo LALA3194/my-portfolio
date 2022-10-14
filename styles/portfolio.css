@@ -142,12 +142,11 @@ label {
 
 @media (max-width: 500px) {
   h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   h3 {
     font-size: 20px;
     font-weight: bolder;
-    color: var(--primary-color);
   }
   .about-row {
     flex-direction: column-reverse;
@@ -156,5 +155,11 @@ label {
 @media (max-width: 768px) {
   .odd-row {
     flex-direction: column-reverse;
+  }
+  .card-description {
+    display: none;
+  }
+  .card-text {
+    text-align: center;
   }
 }
