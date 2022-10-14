@@ -74,7 +74,8 @@ footer {
 .space-title {
   margin-top: 5pc;
 }
-.she-codes {
+.she-codes,
+.email {
   text-decoration: none;
   color: var(--secondary-color);
   font-weight: bold;
@@ -136,8 +137,20 @@ footer {
 .social:hover {
   color: #729c81b6;
 }
+.conect {
+  margin: 10px;
+  font-size: 35px;
+  color: var(--primary-color);
+}
+.conect:hover {
+  color: #729c81b6;
+}
 .tools h4 {
   text-align: center;
+}
+.form-control {
+  color: var(--primary-color);
+  font-size: 20px;
 }
 label {
   color: var(--primary-color);
