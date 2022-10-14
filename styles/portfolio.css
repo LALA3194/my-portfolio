@@ -162,4 +162,12 @@ label {
   .card-text {
     text-align: center;
   }
+  .btn-outline-dark {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .project-img {
+    display: none;
+  }
 }
