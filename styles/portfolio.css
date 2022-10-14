@@ -1,6 +1,5 @@
 :root {
   --primary-color: #668ba4;
-
   --secondary-color: #729c81;
   --detail-color: #dde0ab;
   --secondary-shadow: 5px 5px 10px rgba(151, 203, 169, 0.4);
@@ -114,9 +113,7 @@ footer {
 .card {
   background: #dde0abab;
 }
-.card-thumbnail {
-  margin: 5px;
-}
+
 .btn-outline-dark {
   --bs-btn-font-weight: 600;
   --bs-btn-color: var(--primary-color);
