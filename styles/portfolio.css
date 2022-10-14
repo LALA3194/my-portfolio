@@ -71,6 +71,9 @@ footer {
 .nav-link:hover {
   color: #feffdf;
 }
+.space-title {
+  margin-top: 8pc;
+}
 .she-codes {
   text-decoration: none;
   color: var(--secondary-color);
@@ -78,6 +81,9 @@ footer {
 }
 .active {
   color: var(--secondary-color) !important;
+}
+.project {
+  margin-top: 8pc;
 }
 
 .primary-link {
@@ -143,6 +149,7 @@ label {
 @media (max-width: 500px) {
   h1 {
     font-size: 40px;
+    margin-top: 10px;
   }
   h3 {
     font-size: 20px;
@@ -166,8 +173,8 @@ label {
     text-align: center;
   }
   .btn-outline-dark {
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 30px;
   }
 }
