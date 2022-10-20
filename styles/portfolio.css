@@ -49,27 +49,20 @@ p {
 footer {
   margin-top: 80px;
 }
-
+.logo {
+  max-width: 60px;
+}
+.navbar {
+  height: 60px;
+}
 .nav-link {
   color: var(--primary-color);
-  font-size: 25px;
   font-weight: bold;
   margin: 0px 10px;
-}
-.navbar-brand {
-  font-family: "Lobster", cursive;
-  color: var(--secondary-color);
-  font-size: 40px;
-  font-weight: bold;
-  margin: 0px 10px;
-}
-
-.navbar-brand:hover {
-  color: var(--primary-color);
 }
 
 .nav-link:hover {
-  color: #feffdf;
+  color: var(--secondary-color);
 }
 .space-title {
   margin-top: 5pc;
