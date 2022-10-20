@@ -5,7 +5,7 @@
   --secondary-shadow: 5px 5px 10px rgba(151, 203, 169, 0.4);
 }
 body {
-  background: #feffdf;
+  background: #f8f9fa;
   font-family: "Inconsolata", monospace;
 }
 
@@ -13,6 +13,7 @@ h1 {
   color: var(--secondary-color);
   font-size: 50px;
 }
+
 h2 {
   font-size: 40px;
   font-weight: bolder;
@@ -64,8 +65,46 @@ footer {
 .nav-link:hover {
   color: var(--secondary-color);
 }
+.hero {
+  background-color: #8baeb47a;
+  text-align: left;
+  padding: 100px 100px;
+}
+.hero h1 {
+  font-family: "Lobster", cursive;
+  font-size: 96px;
+}
+.hero h2 {
+  text-align: left;
+  color: var(--primary-color);
+}
 .space-title {
   margin-top: 5pc;
+}
+.font::before {
+  content: " ";
+  animation: animate infinite 7s;
+}
+
+@keyframes animate {
+  0% {
+    content: "an artist 🎨";
+  }
+  20% {
+    content: "a world traveler 🌏";
+  }
+  40% {
+    content: "a sustainability advocate 🌱";
+  }
+  60% {
+    content: "a jiu-jitsu practicioner 🥋";
+  }
+  80% {
+    content: "an educator 🍎";
+  }
+  100% {
+    content: "a go getter 🏆";
+  }
 }
 .she-codes,
 .email {
@@ -88,7 +127,7 @@ footer {
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
-  color: var(--detail-color);
+  color: #feffdf;
 }
 .primary-link:hover {
   color: #feffdf;
