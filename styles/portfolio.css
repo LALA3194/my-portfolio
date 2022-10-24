@@ -162,6 +162,11 @@ footer {
   --bs-btn-hover-bg: var(--primary-color);
   --bs-btn-hover-border-color: var(--primary-color);
 }
+.tool-list i {
+  padding: 0 10px;
+  font-size: 35px;
+  color: var(--secondary-color);
+}
 .social {
   margin: 10px;
   font-size: 35px;
