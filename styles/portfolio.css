@@ -2,7 +2,7 @@
   --hero-color: #8baeb47a;
   --primary-color: #668ba4;
   --secondary-color: #729c81;
-  --detail-color: #dde0ab;
+  --detail-color: #feffdf;
   --secondary-shadow: 5px 5px 10px rgba(151, 203, 169, 0.4);
 }
 body {
@@ -89,6 +89,11 @@ footer {
   padding-bottom: 30px;
   background-color: var(--hero-color);
 }
+
+.form-floating {
+  color: var(--primary-color);
+  font-weight: bold;
+}
 .font::before {
   content: " ";
   animation: animate infinite 7s;
@@ -135,11 +140,12 @@ footer {
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
-  color: #feffdf;
+  color: var(--detail-color);
 }
 .primary-link:hover {
   color: #feffdf;
   background: #668ba4ad;
+  border: 2px solid var(--primary-color);
 }
 
 .my-photo {
@@ -165,8 +171,8 @@ footer {
   --bs-btn-font-weight: 600;
   --bs-btn-color: var(--primary-color);
   --bs-btn-border-color: var(--primary-color);
-  --bs-btn-hover-color: var(--detail-color);
-  --bs-btn-hover-bg: var(--primary-color);
+  --bs-btn-hover-color: var(--primary-color);
+  --bs-btn-hover-bg: var(--hero-color);
   --bs-btn-hover-border-color: var(--primary-color);
 }
 .tool-list i {
